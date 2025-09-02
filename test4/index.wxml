@@ -8,7 +8,7 @@
 </view>
 <!--区域三：视频列表-->
 <view class='videoList'>
-    <view class='videoBar'wx:for='{{list}}'wx:key='video{{index}}'data-url='{{item.video}}'bindtap='playVideo'>
+    <view class='videoBar'wx:for='{{list}}'wx:key='video{{index}}'data-url='{{item.videoUrl}}'bindtap='playVideo'>
         <image src='/images/play.png'></image>
         <text>{{item.title}}</text>
     </view>
